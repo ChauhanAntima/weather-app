@@ -1,0 +1,57 @@
+# Environment files (API keys etc.)
+
+.env
+
+# Dart / Flutter
+
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Generated files
+
+*.log
+*.tmp
+*.swp
+*.lock
+
+# IDE files
+
+.idea/
+.vscode/
+
+-*/
+# Android
+
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# MacOS
+
+macos/Flutter/ephemeral/
+
+# Windows
+
+windows/flutter/ephemeral/
+
+# Linux
+
+linux/flutter/ephemeral/
+
+# Web
+
+web/.dart_tool/
++
+# Misc
+
+.DS_Store
