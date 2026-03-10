@@ -14,7 +14,7 @@ class WeatherScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey[50],
       appBar: AppBar(
-        title: const Text('Pro Weather App'),
+        title: const Text('Weather App'),
         centerTitle: true,
         backgroundColor: Colors.blueGrey,
         foregroundColor: Colors.white,
@@ -87,7 +87,7 @@ class WeatherScreen extends StatelessWidget {
                 )
               else
                 const Text(
-                  'Search for a city to get started 🌤️',
+                  'Search for a city to get started ',
                   style: TextStyle(fontSize: 18, color: Colors.grey),
                 ),
           ],

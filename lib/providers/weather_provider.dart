@@ -25,7 +25,7 @@ class WeatherProvider extends ChangeNotifier {
       _errorMessage = e.toString().replaceAll('Exception: ', '');
     } finally {
       _isLoading = false;
-      notifyListeners(); // UI ko update karna
+      notifyListeners();
     }
   }
 }
